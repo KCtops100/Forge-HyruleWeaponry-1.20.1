@@ -19,9 +19,63 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.THING.get()))
                     .title(Component.translatable("creativetab.hyrule_weapons_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.THING.get());
-                        pOutput.accept(Items.APPLE);
-                        pOutput.accept(ModBlocks.THING_BLOCK.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_BLADESAW.get());
+                        pOutput.accept(ModItems.ANCIENT_SPEAR.get());
+//                        pOutput.accept(ModItems.ANCIENT_BOW.get());
+//                        pOutput.accept(ModItems.ANCIENT_ARROW.get());
+//                        pOutput.accept(ModItems.ANCIENT_SHIELD.get());
+
+                        pOutput.accept(ModItems.BOKO_CLUB.get());
+                        pOutput.accept(ModItems.SPIKED_BOKO_CLUB.get());
+                        pOutput.accept(ModItems.DRAGONBONE_BOKO_CLUB.get());
+                        pOutput.accept(ModItems.BOKO_BAT.get());
+                        pOutput.accept(ModItems.SPIKED_BOKO_BAT.get());
+                        pOutput.accept(ModItems.DRAGONBONE_BOKO_BAT.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+                        pOutput.accept(ModItems.ANCIENT_SHORT_SWORD.get());
+
                     })
                     .build()
     );
