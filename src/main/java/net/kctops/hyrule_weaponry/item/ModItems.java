@@ -3,6 +3,7 @@ package net.kctops.hyrule_weaponry.item;
 import net.kctops.hyrule_weaponry.HyruleWeaponry;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.TridentItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -68,7 +69,7 @@ public class ModItems {
             () -> new SwordItem(ModToolTiers.GERUDO_GEAR, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> GERUDO_SPEAR = ITEMS.register("gerudo_spear",
             () -> new SwordItem(ModToolTiers.GERUDO_GEAR, 1, 1, new Item.Properties()));
-    public static final RegistryObject<Item> GOLDEN_BOW = ITEMS.register("scimitar_of_the_seven",
+    public static final RegistryObject<Item> GOLDEN_BOW = ITEMS.register("golden_bow",
             () -> new SwordItem(ModToolTiers.GERUDO_GEAR, 1, 1, new Item.Properties()));
 // public static final RegistryObject<Item> GERUDO_SHIELD = ITEMS.register("gerudo_shield",
 //         () -> new SwordItem(ModToolTiers.GERUDO_GEAR, 1, 1, new Item.Properties()));
