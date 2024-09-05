@@ -3,6 +3,7 @@ import com.mojang.logging.LogUtils;
 import net.kctops.hyrule_weaponry.block.ModBlocks;
 import net.kctops.hyrule_weaponry.item.ModCreativeModeTabs;
 import net.kctops.hyrule_weaponry.item.ModItems;
+import net.kctops.hyrule_weaponry.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,13 +17,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
 @Mod(HyruleWeaponry.MOD_ID)
 public class HyruleWeaponry
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "hyrule_weaponry";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public HyruleWeaponry()
     {
@@ -30,6 +28,7 @@ public class HyruleWeaponry
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
