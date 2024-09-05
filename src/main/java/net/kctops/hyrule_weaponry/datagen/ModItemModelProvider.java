@@ -162,7 +162,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         // handheldItem(ModItems.SOLDIERS_BOW);
         // handheldItem(ModItems.SOLDIERS_SHIELD);
 
-        handheldItem(ModItems.TRAVELERS_BROADSWORD);
+        handheldItem(ModItems.TRAVELERS_SWORD);
         handheldItem(ModItems.TRAVELERS_CLAYMORE);
         handheldItem(ModItems.TRAVELERS_SPEAR);
         // handheldItem(ModItems.TRAVELERS_BOW);

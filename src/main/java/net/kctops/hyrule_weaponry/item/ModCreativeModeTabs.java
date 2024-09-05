@@ -165,7 +165,7 @@ public class ModCreativeModeTabs {
 //                        pOutput.accept(ModItems.SOLDIERS_BOW.get());
 //                        pOutput.accept(ModItems.SOLDIERS_SHIELD.get());
 
-                        pOutput.accept(ModItems.TRAVELERS_BROADSWORD.get());
+                        pOutput.accept(ModItems.TRAVELERS_SWORD.get());
                         pOutput.accept(ModItems.TRAVELERS_CLAYMORE.get());
                         pOutput.accept(ModItems.TRAVELERS_SPEAR.get());
 //                        pOutput.accept(ModItems.TRAVELERS_BOW.get());

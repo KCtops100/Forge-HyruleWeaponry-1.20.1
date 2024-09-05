@@ -1,5 +1,6 @@
 package net.kctops.hyrule_weaponry.item;
 
+import io.netty.util.Attribute;
 import net.kctops.hyrule_weaponry.HyruleWeaponry;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
@@ -290,7 +291,7 @@ public class ModItems {
 //    public static final RegistryObject<Item> SOLDIERS_SHIELD = ITEMS.register("soldiers_shield",
 //            () -> new SwordItem(ModToolTiers.SOLDIERS_GEAR, 1, 1, new Item.Properties()));
 
-    public static final RegistryObject<Item> TRAVELERS_BROADSWORD = ITEMS.register("travelers_broadsword",
+    public static final RegistryObject<Item> TRAVELERS_SWORD = ITEMS.register("travelers_sword",
             () -> new SwordItem(ModToolTiers.TRAVELERS_GEAR, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> TRAVELERS_CLAYMORE = ITEMS.register("travelers_claymore",
             () -> new SwordItem(ModToolTiers.TRAVELERS_GEAR, 1, 1, new Item.Properties()));
